@@ -2,10 +2,6 @@
 
 > Configurações úteis sobre Git e Github
 
-## Ajustes e melhorias
-
-⚠️ O projeto em desenvolvimento
-
 ---
 
 ## 🚀 Inicializando um repositório (mais utilizado no dia a dia)
@@ -162,8 +158,11 @@ git config --global alias.s status
 
 ## ☕ Versionando com tags
 ```
-
+git tag -a 1.0.0 -m "Readme finalizado"
+git push origin master --tags
 ```
+Release modificadas
+
 
 ## ☕ Git revert
 ```
@@ -172,11 +171,14 @@ git revert [hash]
 
 ## ☕ Apagar tags e branches remoto
 ```
-//local
+//tag local
 git tag -d 1.0.0 
 
-//remoto
+//tag remoto
 git push origin :1.0.0
+
+//branch remoto
+git push origin :test
 ```
 
 
