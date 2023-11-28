@@ -22,9 +22,6 @@ git config --global core.editor sub
 git config --global core.editor vim
 git config --global core.editor emacs
 git config --global core.editor "code --wait"
-
-
-git config --list
 ```
 ---
 
@@ -38,6 +35,20 @@ Modified (Modificado) - Arquivo foi modificado.
 Staged - Momento em que a versão for fechada, levara esses arquivos.
 
 ---
+
+## ☕ Comandos importantes
+```
+git config --list
+
+git log
+git log --decorate
+git log --author="Tayse Rosa"
+git log shortlog
+git shortlog -sn
+git log --graph
+
+git show [hash]
+```
 
 ## ☕ Inicializando um repositório
 Na pasta do projeto:
