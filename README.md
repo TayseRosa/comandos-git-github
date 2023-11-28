@@ -8,7 +8,7 @@
 
 ---
 
-## ☕ Inicializando um repositório (mais utilizado no dia a dia)
+## 🚀 Inicializando um repositório (mais utilizado no dia a dia)
 Na pasta do projeto:
 ```
 git status
@@ -19,7 +19,7 @@ git commit -m "First commit"
 
 ```
 
-## 🚀 Configuração inicial do GIT
+## ☕ Configuração inicial do GIT
 
 ```
 git config --global user.name "Tayse Rosa"
@@ -110,6 +110,7 @@ Por isso, enviamos a chave pública para o servidor (GitHub) e com a nossa chave
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 [x]- Isso cria uma nova chave ssh, utilizando seu próprio email
+
 [x]- [Enter] 3x
 
 Para copiar a sua chave, basta:
@@ -123,9 +124,11 @@ Copia o código
 ### Adicionar sua chave SSH ao GitHub
 No https://github.com: clica na sua foto de perfil > settings > do lado esquerdo tem a opção "SSH and GPG Keys" > Clica em New SSH key.
 
-## 📫 Contribuindo para Bateria JS
+---
 
-Para contribuir com Bateria JS, siga estas etapas:
+## 📫 Contribuindo com este repositório
+
+Para contribuir com este repositório, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -152,4 +155,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-Copyright :copyright: 2023 · Feito com por ❤️ Tayse Rosa · JS Drums
+Copyright :copyright: 2023 · Feito com por ❤️ Tayse Rosa 
