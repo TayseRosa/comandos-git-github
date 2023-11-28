@@ -56,7 +56,31 @@ git diff
 git diff --name-only
 ```
 
+## ☕ Desfazendo
+```
+git reset --soft [hash]
 
+
+git log
+git status
+git diff
+
+Quando o arquivo NÃO esta na area de staged:
+git checkout [nome do arquivo]
+
+Quando o arquivo JÁ esta na area de staged:
+git reset HEAD [nome do arquivo]
+
+git reset --soft 
+git reset --mixed
+git reset --hard
+```
+
+ℹ️ git reset - Vai pegar as modificaçoes, voltar o commit, mas o arquivo permanece como staged, com a modificação pronta para ser commitado novamente.
+
+ℹ️ git mixed - Vai pegar as modificaçoes, voltar o commit, vai voltar para antes do staged (unmodified)
+
+ℹ️ git hard - Vai ignorar a existencia deste commit e tudo o que foi feito nele.
 
 ---
 
