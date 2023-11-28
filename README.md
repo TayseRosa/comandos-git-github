@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Inicializando um repositório (mais utilizado no dia a dia)
+## 🚀 Inicializando um repositorio (mais utilizado no dia a dia)
 Na pasta do projeto:
 ```
 git status
@@ -16,7 +16,7 @@ git commit -m "First commit"
 ```
 
 
-## 🚀 Enviando mudanças para um repositório (mais utilizado no dia a dia)
+## 🚀 Enviando mudanças para um repositorio (mais utilizado no dia a dia)
 Na pasta do projeto:
 Para onde: origin
 Branch que estou: master
@@ -25,7 +25,7 @@ Branch que estou: master
 git push origin master
 ```
 
-## ☕ Configuração inicial do GIT
+## ☕ Configuracao inicial do GIT
 
 ```
 git config --global user.name "Tayse Rosa"
