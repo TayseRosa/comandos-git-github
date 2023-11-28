@@ -12,6 +12,8 @@ git status
 git init
 git add --all
 git commit -m "First commit"
+git remote add origin REMOTE-URL
+git push origin main
 
 ```
 
