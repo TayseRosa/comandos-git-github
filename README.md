@@ -170,6 +170,15 @@ git config --global alias.s status
 git revert [hash]
 ```
 
+## ☕ Apagar tags e branches remoto
+```
+//local
+git tag -d 1.0.0 
+
+//remoto
+git push origin :1.0.0
+```
+
 
 ---
 ## 📫 Contribuindo com este repositório
