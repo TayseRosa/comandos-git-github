@@ -142,6 +142,11 @@ git checkout -b [nome do branch]
 git branch
 ```
 
+### Dando merge em branchs
+```
+git merge [nome da branch que quer mergir com a atual] 
+```
+
 ### Deletando um branch
 ```
 git branch -D [nome do branch]
