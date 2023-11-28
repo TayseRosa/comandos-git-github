@@ -160,6 +160,16 @@ Fonte de templates de .gitignore: https://github.com/github/gitignore
 git config --global alias.s status
 ```
 
+## ☕ Versionando com tags
+```
+
+```
+
+## ☕ Git revert
+```
+git revert [hash]
+```
+
 
 ---
 ## 📫 Contribuindo com este repositório
