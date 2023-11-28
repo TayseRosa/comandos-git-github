@@ -139,16 +139,25 @@ No https://github.com: clica na sua foto de perfil > settings > do lado esquerdo
 ## ☕ O que é um branch?
 É um ponteiro móvel que leva a um commit.
 
-## Criando um branch
+### Criando um branch
 ```
 git checkout -b [nome do branch]
 
 git branch
 ```
 
-## Deletando um branch
+### Deletando um branch
 ```
 git branch -D [nome do branch]
+```
+
+## ☕ Criando .gitignore
+Fonte de templates de .gitignore: https://github.com/github/gitignore
+
+---
+## ☕ Criando Alias
+```
+git config --global alias.s status
 ```
 
 
