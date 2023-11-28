@@ -25,6 +25,13 @@ Branch que estou: master
 git push origin master
 ```
 
+## ☕ Corrigindo mensagem de commit
+```
+git commit --amend -m "Teste de novo commit"
+git log --oneline
+```
+
+
 ## ☕ Configuracao inicial do GIT
 
 ```
@@ -57,6 +64,7 @@ Staged - Momento em que a versão for fechada, levara esses arquivos.
 git config --list
 
 git log
+git log --oneline
 git log --decorate
 git log --author="Tayse Rosa"
 git log shortlog
@@ -64,6 +72,8 @@ git shortlog -sn
 git log --graph
 
 git show [hash]
+
+git remote -v
 ```
 
 ## ☕ Comandos importantes (Visualizando Diff)
@@ -154,6 +164,11 @@ git branch -D [nome do branch]
 
 ## ☕ Criando .gitignore
 Fonte de templates de .gitignore: https://github.com/github/gitignore
+
+Criar arquivo .gitignore
+```
+teste.txt
+```
 
 ---
 ## ☕ Criando Alias
