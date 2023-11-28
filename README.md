@@ -36,7 +36,7 @@ Staged - Momento em que a versão for fechada, levara esses arquivos.
 
 ---
 
-## ☕ Comandos importantes
+## ☕ Comandos importantes (Visualizando Logs)
 ```
 git config --list
 
@@ -49,6 +49,16 @@ git log --graph
 
 git show [hash]
 ```
+
+## ☕ Comandos importantes (Visualizando Diff)
+```
+git diff
+git diff --name-only
+```
+
+
+
+---
 
 ## ☕ Inicializando um repositório
 Na pasta do projeto:
