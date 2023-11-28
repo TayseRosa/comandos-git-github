@@ -8,6 +8,16 @@
 
 ---
 
+## ☕ Inicializando um repositório (mais utilizado no dia a dia)
+Na pasta do projeto:
+```
+git status
+
+git init
+git add --all
+git commit -m "First commit"
+
+```
 
 ## 🚀 Configuração inicial do GIT
 
@@ -84,16 +94,34 @@ git reset --hard
 
 ---
 
-## ☕ Inicializando um repositório
-Na pasta do projeto:
-```
-git status
 
-git init
-git add --all
-git commit -m "First commit"
+## ☕ Conectando ao GitHub com SSh
+Problemas para subir o código para o repositório remoto?
+Temos esse problema porque o Github precisa identificar você de alguma forma, e para isso o Github precisa autenticar um usuário remoto ao servidor atraves do SSH.
 
+SSH é um protocolo que serve para autenticar um usuário remoto ao servidor, é baseado em uma chave pública e uma chave privada, onde apenas a chave privada consegue abrir a chave pública.
+Por isso, enviamos a chave pública para o servidor (GitHub) e com a nossa chave privada na nossa máquina conseguimos abrir a chave publica do github e subir o codigo.
+
+1º - Gerar a chave SSH
+2º - Adicionar a chave SSH a sua conta GitHub
+
+### Gerar uma nova chave SSH
 ```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+[x]- Isso cria uma nova chave ssh, utilizando seu próprio email
+[x]- [Enter] 3x
+
+Para copiar a sua chave, basta:
+```
+cd ~/.ssh
+ls
+cat id_rsa.pub
+```
+Copia o código
+
+### Adicionar sua chave SSH ao GitHub
+No https://github.com: clica na sua foto de perfil > settings > do lado esquerdo tem a opção "SSH and GPG Keys" > Clica em New SSH key.
 
 ## 📫 Contribuindo para Bateria JS
 
